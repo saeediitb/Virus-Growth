@@ -48,6 +48,7 @@ def run():
 	virus_sys.setup_integrator() #-------------------------
 	max_run = virus_sys.try_relax() #---------------------------
 	#frame_out(virus_sys.time, virus_sys.shell)
+	print('sa')
 	n=0
 	shell=pickle.loads(pickle.dumps(virus_sys.shell))
 	shellE = pickle.loads(pickle.dumps(virus_sys.shellE))
